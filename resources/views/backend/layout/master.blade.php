@@ -35,7 +35,7 @@
                 </div>
                 <div>
                     <a class="navbar-brand brand-logo" href="{{ route('backend.products.index') }}">
-                        <img src="{{ asset('frontend/assets/images/logo.png') }}" alt="logo" />
+                        <img src="{{ asset('frontend/assets/images/logo.png') }}" alt="logo" style="width: 200px; height: 80px; object-fit: contain;"/>
                     </a>
                     <a class="navbar-brand brand-logo-mini" href="{{ route('backend.products.index') }}">
                         <img src="{{ asset('frontend/assets/images/logo.png') }}" alt="logo" />
