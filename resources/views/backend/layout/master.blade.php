@@ -19,7 +19,7 @@
     <!-- inject:css -->
     <link rel="stylesheet" href="{{ asset('backend/assets/css/vertical-layout-light/style.css') }}">
     <!-- endinject -->
-    <link rel="shortcut icon" href="{{ asset('backend/assets/images/favicon.png') }}" />
+    <link rel="shortcut icon" href="{{ asset('frontend/assets/images/logo.png') }}" />
 </head>
 
 <body>
@@ -35,10 +35,10 @@
                 </div>
                 <div>
                     <a class="navbar-brand brand-logo" href="{{ route('backend.products.index') }}">
-                        <img src="{{ asset('backend/assets/images/logo.svg') }}" alt="logo" />
+                        <img src="{{ asset('frontend/assets/images/logo.png') }}" alt="logo" />
                     </a>
                     <a class="navbar-brand brand-logo-mini" href="{{ route('backend.products.index') }}">
-                        <img src="{{ asset('backend/assets/images/logo-mini.svg') }}" alt="logo" />
+                        <img src="{{ asset('frontend/assets/images/logo.png') }}" alt="logo" />
                     </a>
                 </div>
             </div>
