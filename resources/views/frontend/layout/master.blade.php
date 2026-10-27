@@ -35,7 +35,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="offer-box-products">
-                            <img class="img-fluid" src="{{ asset('frontend/assets/images/2148493508.jpg') }}"
+                            <img class="img-fluid" src="{{ asset('frontend/assets/images/main.jpg') }}"
                                 alt="" />
                         </div>
                     </div>
@@ -60,10 +60,6 @@
 
     @yield('content')
 
-
-    <!-- Start Footer  -->
-    @include('frontend.layout.footer')
-    <!-- End Footer  -->
 
     <!-- Start copyright  -->
     @include('frontend.layout.footer')
